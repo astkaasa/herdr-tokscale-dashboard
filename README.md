@@ -35,7 +35,7 @@ herdr plugin link /path/to/herdr-tokscale-dashboard
 From GitHub:
 
 ```bash
-herdr plugin install owner/repo[/subdir]
+herdr plugin install astkaasa/herdr-tokscale-dashboard
 ```
 
 ## Configure
