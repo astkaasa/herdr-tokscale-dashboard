@@ -1,0 +1,22 @@
+id = "tokscale.dashboard"
+name = "Tokscale Dashboard"
+version = "0.2.0"
+min_herdr_version = "0.7.0"
+description = "Open Tokscale as a local Herdr dashboard pane."
+platforms = ["macos", "linux"]
+
+[[actions]]
+id = "open"
+title = "Open Tokscale dashboard"
+command = ["bash", "open-tokscale.sh", "open"]
+
+[[panes]]
+id = "tui"
+title = "Tokscale"
+placement = "split"
+command = ["bash", "open-tokscale.sh", "tui"]
+
+[[actions]]
+id = "pulse-json"
+title = "Print Pulse JSON"
+command = ["bash", "open-tokscale.sh", "pulse-json"]
